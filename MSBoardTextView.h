@@ -1,17 +1,19 @@
 //
-// Created by dominik on 26.03.19.
+// Created by domin on 15.04.2019.
 //
 
-#ifndef SAPER_MSBOARDTEXTVIEW_H
-#define SAPER_MSBOARDTEXTVIEW_H
+#ifndef MINESWEEPER_MSBOARDTEXTVIEW_H
+#define MINESWEEPER_MSBOARDTEXTVIEW_H
 
-class MSBoardTextView {
+
+class MSBoardTextView
+{
     MinesweeperBoard &view;
-
 public:
-    MSBoardTextView(MinesweeperBoard&gameboard);
-
+    MSBoardTextView(MinesweeperBoard &gameboard);
     void game_display();
 };
 
-#endif //SAPER_MSBOARDTEXTVIEW_H
+
+
+#endif //MINESWEEPER_MSBOARDTEXTVIEW_H

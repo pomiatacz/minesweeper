@@ -1,24 +1,20 @@
 //
-// Created by dominik on 02.04.19.
+// Created by domin on 15.04.2019.
 //
-
-#include "MSTextController.h"
-
 #include <iostream>
-
+#include "MSTextController.h"
 using namespace std;
 
-MSTextController::MSTextController(MinesweeperBoard &board, MSBoardTextView &view) : board (board), view (view)
+MSTextController::MSTextController(MinesweeperBoard &board, MSBoardTextView &view) : board (board), view (view){}
+
+void MSTextController::play()
 {
-
-}
-
-void MSTextController::play() {
     int x, y;
 
     cout << "**************** Witaj w grze Saper ****************\n";
     do
-    { cout << "**************** Podaj wspolrzedna x ***************\n";
+    {
+        cout << "**************** Podaj wspolrzedna x ***************\n";
         cin >> x;
         cout << "**************** Podaj wspolrzedna y ***************\n";
         cin >> y;
@@ -29,9 +25,10 @@ void MSTextController::play() {
         int action;
         cout << "****************Podaj numer polecenia 1 lub 2 ********\n";
         cin >> action;
-        switch (action) {
+        switch (action)
+        {
             case 1:
-                board.revealField(x, y);
+                board.revealField(x,y);
                 view.game_display();
 
                 break;
@@ -39,8 +36,10 @@ void MSTextController::play() {
                 board.toggleFlag(x,y);
                 view.game_display();
                 break;
+            default:
+                cout << "Twoj ruch jest nie poprawny!";
         }
+        board.check_gamestate();
+    }while(board.getGameState()==RUNNING);
 
-
-    }while(board.getGameState(RUNNING));
 }
