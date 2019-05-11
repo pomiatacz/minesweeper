@@ -559,35 +559,38 @@
 
 1556234455 c:\users\domin\desktop\minesweeper-codeblocks\include\mssfmlview.h
 
-1556226992 source:c:\users\domin\desktop\saper---etap-1--master\src\minesweeperboard.cpp
+1557342720 source:c:\users\domin\desktop\saper---etap-1--master\src\minesweeperboard.cpp
 	<iostream>
 	"MinesweeperBoard.h"
 
-1556571109 c:\users\domin\desktop\saper---etap-1--master\include\minesweeperboard.h
+1556607882 c:\users\domin\desktop\saper---etap-1--master\include\minesweeperboard.h
 
 1556569791 source:c:\users\domin\desktop\saper---etap-1--master\src\msboardtextview.cpp
 	"MinesweeperBoard.h"
 	"MSBoardTextView.h"
 	<iostream>
 
-1556223101 c:\users\domin\desktop\saper---etap-1--master\include\msboardtextview.h
+1556607882 c:\users\domin\desktop\saper---etap-1--master\include\msboardtextview.h
 
-1556570757 source:c:\users\domin\desktop\saper---etap-1--master\src\mssfmlview.cpp
+1557603097 source:c:\users\domin\desktop\saper---etap-1--master\src\mssfmlview.cpp
 	"MinesweeperBoard.h"
 	"MSSFMLView.h"
 
-1556571177 c:\users\domin\desktop\saper---etap-1--master\include\mssfmlview.h
+1556642825 c:\users\domin\desktop\saper---etap-1--master\include\mssfmlview.h
 	"MinesweeperBoard.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<iostream>
 
 1556226992 source:c:\users\domin\desktop\saper---etap-1--master\src\mstextcontroller.cpp
 	<iostream>
 	"MSTextController.h"
 
-1556223101 c:\users\domin\desktop\saper---etap-1--master\include\mstextcontroller.h
+1556607882 c:\users\domin\desktop\saper---etap-1--master\include\mstextcontroller.h
 	"MinesweeperBoard.h"
 	"MSBoardTextView.h"
 
-1556570690 source:c:\users\domin\desktop\saper---etap-1--master\main.cpp
+1557397549 source:c:\users\domin\desktop\saper---etap-1--master\main.cpp
 	"MSSFMLView.h"
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
@@ -607,13 +610,7 @@
 	"MinesweeperBoard.h"
 	"MSBoardTextView.h"
 
-1556571109 c:\users\domin\desktop\saper---etap-1--master\include\sfmlboard.h
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
+1556642313 c:\users\domin\desktop\saper---etap-1--master\include\sfmlboard.h
 
-1556568515 source:c:\users\domin\desktop\saper---etap-1--master\src\sfmlboard.cpp
-	"SFMLBoard.h"
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-	<iostream>
+1556642395 source:c:\users\domin\desktop\saper---etap-1--master\src\sfmlboard.cpp
 

@@ -13,14 +13,29 @@ using namespace std;
 
 int main()
 {
+    sf::RenderWindow window(sf::VideoMode(400, 400), "Minesweeper!");
     srand(time(NULL));
     MinesweeperBoard board(10,10,DEBUG);
+    MSSFMLView view(board);
 
- //   board.debug_display();
- //   MSBoardTextView view ( board );
-  //  MSTextController ctrl(board, view);
-   // ctrl.play();
-  SFMLBoard a(35,35,32);
-    a.draw();
+
+//  board.debug_display();
+ // MSBoardTextView view ( board );
+ // MSTextController ctrl(board, view);
+// ctrl.play();
+
+
+    while(window.isOpen())
+    {
+
+
+        window.clear();
+        view.draw(window,35,35,32);
+        window.display();
+
+
+    }
+//  SFMLBoard a(35,35,32);
+//  a.draw(window);
     return 0;
 }
